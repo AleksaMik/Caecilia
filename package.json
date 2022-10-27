@@ -1,0 +1,19 @@
+{
+  "name": "caecilia",
+  "version": "1.0.0",
+  "description": "Portfolio React",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AleksaMik/Caecilia.git"
+  },
+  "author": "Aleksandra Mikhailichenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AleksaMik/Caecilia/issues"
+  },
+  "homepage": "https://github.com/AleksaMik/Caecilia#readme"
+}
