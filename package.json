@@ -4,8 +4,13 @@
   "description": "Portfolio React",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test"
-  },
+    "test": "npm run test",
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "eject": "react-scripts eject",
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d build"
+    },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AleksaMik/Caecilia.git"
@@ -15,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/AleksaMik/Caecilia/issues"
   },
-  "homepage": "https://github.com/AleksaMik/Caecilia#readme"
+  "homepage": "https://github.com/AleksaMik/Caecilia#readme",
+  "dependencies": {
+    "react-scripts": "^5.0.1"
+  }
 }
