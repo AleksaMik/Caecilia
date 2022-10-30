@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import { Route, Redirect, HashRouter } from "react-router-dom";
-import Navigation from "../Navigation";
-import About from "../About";
-import Portfolio from "../Portfolio";
-import Contact from '../Contact';
-import Resume from '../Resume';
+import { Navigate } from "react-router-dom";
+import Navigation from "../../components/Navigation";
+import About from "../../components/About";
+import Portfolio from "../../components/Portfolio";
+import Contact from '../../components/Contact';
+import Resume from '../../components/Resume';
 
 
 class Header extends Component {
@@ -21,6 +21,7 @@ class Header extends Component {
           <Route path="/portfolio" component={Portfolio} />
           <Route path="/contact" component={Contact}/>
           <Route path="/resume" component={Resume}/>
+          <Route path="/" element={<Navigate to= "/" />}/>
         </div>
       </HashRouter>
     );
