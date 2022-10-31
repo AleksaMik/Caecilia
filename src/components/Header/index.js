@@ -10,7 +10,7 @@ import Resume from '../../components/Resume';
 class Header extends Component {
   render() {
     return (
-      <HashRouter>
+      <Navigate>
         <header>
           <Navigation />
         </header>
@@ -23,7 +23,7 @@ class Header extends Component {
           <Route path="/resume" component={Resume}/>
           <Route path="/" element={<Navigate to= "/" />}/>
         </div>
-      </HashRouter>
+      </Navigate>
     );
   }
 }
