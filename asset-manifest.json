@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/AleksaMik/Caecilia/static/css/main.b808fd1f.chunk.css",
+    "main.js": "/AleksaMik/Caecilia/static/js/main.fcc8fcfc.chunk.js",
+    "main.js.map": "/AleksaMik/Caecilia/static/js/main.fcc8fcfc.chunk.js.map",
+    "runtime-main.js": "/AleksaMik/Caecilia/static/js/runtime-main.8fb6faac.js",
+    "runtime-main.js.map": "/AleksaMik/Caecilia/static/js/runtime-main.8fb6faac.js.map",
+    "static/css/2.c4e73993.chunk.css": "/AleksaMik/Caecilia/static/css/2.c4e73993.chunk.css",
+    "static/js/2.ae2092fd.chunk.js": "/AleksaMik/Caecilia/static/js/2.ae2092fd.chunk.js",
+    "static/js/2.ae2092fd.chunk.js.map": "/AleksaMik/Caecilia/static/js/2.ae2092fd.chunk.js.map",
+    "static/js/3.6d047722.chunk.js": "/AleksaMik/Caecilia/static/js/3.6d047722.chunk.js",
+    "static/js/3.6d047722.chunk.js.map": "/AleksaMik/Caecilia/static/js/3.6d047722.chunk.js.map",
+    "index.html": "/AleksaMik/Caecilia/index.html",
+    "static/css/2.c4e73993.chunk.css.map": "/AleksaMik/Caecilia/static/css/2.c4e73993.chunk.css.map",
+    "static/css/main.b808fd1f.chunk.css.map": "/AleksaMik/Caecilia/static/css/main.b808fd1f.chunk.css.map",
+    "static/js/2.ae2092fd.chunk.js.LICENSE.txt": "/AleksaMik/Caecilia/static/js/2.ae2092fd.chunk.js.LICENSE.txt",
+    "static/media/myProfile.57cf9211.png": "/AleksaMik/Caecilia/static/media/myProfile.57cf9211.png",
+    "static/media/screenCalendar.41f968b8.png": "/AleksaMik/Caecilia/static/media/screenCalendar.41f968b8.png",
+    "static/media/screenQuiz.809c1859.png": "/AleksaMik/Caecilia/static/media/screenQuiz.809c1859.png",
+    "static/media/screenWeather.2bab62f9.png": "/AleksaMik/Caecilia/static/media/screenWeather.2bab62f9.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8fb6faac.js",
+    "static/css/2.c4e73993.chunk.css",
+    "static/js/2.ae2092fd.chunk.js",
+    "static/css/main.b808fd1f.chunk.css",
+    "static/js/main.fcc8fcfc.chunk.js"
+  ]
+}
