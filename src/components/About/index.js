@@ -7,7 +7,7 @@ function About() {
         <section className=""home my-5>
             <h2 class="top-title">Welcome to My Portfolio!</h2>
   
-      <div className="Portrait">
+      <div className="Portrait" id = "myPortrait">
         <img
           src={Portrait}
           alt="self portrait"

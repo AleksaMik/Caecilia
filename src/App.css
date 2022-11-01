@@ -57,8 +57,16 @@
   header {
     background: #22223b;
   }
-  .about .portrait img {
-    width: 15em;
+
+  #myPortrait {
+    width: 10em;
   border-radius: 50%;
 }
-  
+
+.about .p {
+  text-align: end;
+  display: flex;
+  justify-content: flex-end;
+
+}
+
