@@ -8,7 +8,7 @@ function Resume() {
 
       <div>
         <div class="mt-5">
-          <h2 className="top-title">Aleksandra Mikhailichenko</h2>
+          <h2 className="top-title">Mauris commodo quis imperdiet </h2>
           <ul>
             <li>
             Aliquam ut porttitor leo a diam sollicitudin tempor id eu. Nulla aliquet enim tortor at. Eu facilisis sed odio morbi quis commodo odio aenean sed. Tincidunt id aliquet risus feugiat in. Mi eget mauris pharetra et ultrices neque ornare aenean euismod. Sed elementum tempus egestas sed sed risus pretium. Commodo elit at imperdiet dui. Pharetra sit amet aliquam id diam. Facilisi cras fermentum odio eu feugiat. Interdum velit laoreet id donec ultrices.
@@ -28,12 +28,6 @@ function Resume() {
             class="link"
           >
           </a>
-        </div>
-      </div>
-
-      <div class="justify-content-center mt-5">
-        <div>
-          <h2 className="top-title">Proficiencies</h2>
         </div>
       </div>
     </section>

@@ -4,9 +4,9 @@ function About() {
 
     return(
         <section className="container">
-            <h2 class="top-title">Aleksandra Mikhailichenko</h2>
+            <h2 class="top-title">Welcome to My Portfolio!</h2>
             <hr></hr>
-                <img class="mb-5" id="avatar" src="../assets/immages/profile.jpeg" alt="Aleksandra Mikhailichenko" />
+                <img class="mb-5" id="avatar" src="../../assets/images/profile.jpeg" alt="Aleksandra Mikhailichenko" />
 
 
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing 
