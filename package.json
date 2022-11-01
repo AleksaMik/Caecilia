@@ -575,16 +575,16 @@
     "randombytes": "^2.1.0",
     "range-parser": "^1.2.1",
     "raw-body": "^2.5.1",
-    "react": "^18.2.0",
+    "react": "^17.0.1",
     "react-app-polyfill": "^3.0.0",
-    "react-bootstrap": "^2.5.0",
+    "react-bootstrap": "^1.4.3",
     "react-dev-utils": "^12.0.1",
-    "react-dom": "^18.2.0",
+    "react-dom": "^17.0.1",
     "react-error-overlay": "^6.0.11",
     "react-is": "^17.0.2",
     "react-refresh": "^0.11.0",
-    "react-router-dom": "^6.4.2",
-    "react-scripts": "^5.0.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.1",
     "read-cache": "^1.0.0",
     "readable-stream": "^3.6.0",
     "readdirp": "^3.6.0",
@@ -772,8 +772,9 @@
     "yocto-queue": "^0.1.0"
   },
   "scripts": {
-    "test": "npm run test",
-    "start": "react-scripts start"
+    "test": "react-scripts test",
+    "start": "react-scripts start",
+    "build": "react-scripts build"
   },
   "repository": {
     "type": "git",
