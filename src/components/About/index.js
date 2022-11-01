@@ -1,10 +1,14 @@
 import React from 'react';
 
-
 function About() {
-  return (
-    <section class="about">
-      <h1 id="about"> About Me section</h1>
+
+    return(
+        <section className="container">
+            <h2 class="top-title">Aleksandra Mikhailichenko</h2>
+            <hr></hr>
+                <img class="mb-5" id="avatar" src="./assets/immages/profile.jpeg" alt="Aleksandra Mikhailichenko" />
+
+
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing 
         elit, sed do eiusmod tempor incididunt ut labore et 
         dolore magna aliqua. Ut enim ad minim veniam, quis 
