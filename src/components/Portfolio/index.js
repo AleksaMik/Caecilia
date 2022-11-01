@@ -1,26 +1,74 @@
 import React from 'react'; 
-// import ProjectCards from '../../components/Project'
-// import portfolio from '../../portfolio.json'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import screenCalendar from "../../assets/images/screenCalendar.png";
+import screenQuiz from "../../assets/images/screenQuiz.png";
+import screenWeather from"../../assets/images/screenWeather.png"
 
-// function Wrapper(props) {
-//     return <div className="wrapper">{props.children}</div>;
-// }
 
 function Portfolio () {  
 
     return (
-        <section className="container">
-          <div className="project">
-            <h2 className="top-title">Bootcamp Portfolio</h2>
-            <hr></hr>
-          </div>
+        <section className="portfolio">
+          
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 g-4">
+  <div class="col">
+    <div class="card">
+      <img
+        src={screenCalendar}
+        alt="Calendar"
+        class="card-img-top"
+      />
+      <div class="card-body">
 
-          {/* <Wrapper id="card-data">
-            {portfolio.map((project) => (
-              <ProjectCards key={project.id} image={project.image} name={project.name} github={project.github} deploy={project.deploy} topics={project.topics}/>
-            ))}
-          </Wrapper> */}
+        <a href="https://github.com/AleksaMik/Simple-Calendar" target="_blank" rel="noreferrer">
+          <button>GitHub</button>
+        </a>
+        <a href="https://user-images.githubusercontent.com/105229148/179064279-29b925cf-3d46-4268-a763-8fa7804ee19b.png" target="_blank" rel="noreferrer">
+          <button>Website</button>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card">
+      <img
+        src={screenQuiz}
+        alt="Calendar"
+        class="card-img-top"
+      />
+      <div class="card-body">
+
+        <a href="https://github.com/AleksaMik/Javascript-Quiz" target="_blank" rel="noreferrer">
+          <button>GitHub</button>
+        </a>
+        <a href="https://user-images.githubusercontent.com/105229148/177793115-482f67fe-1560-401b-add2-5d09ed8d6604.png" target="_blank" rel="noreferrer">
+          <button>Website</button>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card">
+      <img
+        src={screenWeather}
+        alt="Calendar"
+        class="card-img-top"
+      />
+      <div class="card-body">
+
+        <a href="https://github.com/AleksaMik/Weather-Dashboard" target="_blank" rel="noreferrer">
+          <button>GitHub</button>
+        </a>
+        <a href="https://user-images.githubusercontent.com/105229148/179540250-aecfa24d-e022-4c1b-b835-a42e77c69be0.png" target="_blank" rel="noreferrer">
+          <button>Website</button>
+        </a>
+      </div>
+    </div>
+  </div>
+  </div>
+ 
         </section>
     
     );

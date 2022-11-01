@@ -1,14 +1,18 @@
 import React from 'react';
+import Portrait from "../../assets/images/myProfile.png";
 
 function About() {
 
     return(
-        <section className="container">
+        <section className=""home my-5>
             <h2 class="top-title">Welcome to My Portfolio!</h2>
-            <hr></hr>
-                <img class="mb-5" id="avatar" src="../../assets/images/profile.jpeg" alt="Aleksandra Mikhailichenko" />
-
-
+  
+      <div className="Portrait">
+        <img
+          src={Portrait}
+          alt="self portrait"
+        />
+      </div>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing 
         elit, sed do eiusmod tempor incididunt ut labore et 
         dolore magna aliqua. Ut enim ad minim veniam, quis 
@@ -17,7 +21,9 @@ function About() {
         reprehenderit in voluptate velit esse cillum dolore 
         eu fugiat nulla pariatur. Excepteur sint occaecat 
         cupidatat non proident, sunt in culpa qui officia 
-        deserunt mollit anim id est laborum.</p>
+        deserunt mollit anim id est laborum.
+        </p>
+    
     </section>
   );
 }

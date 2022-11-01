@@ -14,14 +14,14 @@
   }
   
   .App-header {
-    background-color: #22223b;
+    background-color: #282c34;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     font-size: calc(10px + 2vmin);
-    color: white;
+    color: red;
   }
   
   .App-link {
@@ -36,4 +36,29 @@
       transform: rotate(360deg);
     }
   }
+  body {
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    line-height: 1.5;
+    font-size: 18px;
+    letter-spacing: .1em;
+    background: #f2e9e4;
+    font-family: Helvetica, sans-serif;
+  }
+  .footer { 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    background-color: #22223b;
+
+  } 
+
+  header {
+    background: #22223b;
+  }
+  .about .portrait img {
+    width: 15em;
+  border-radius: 50%;
+}
   
