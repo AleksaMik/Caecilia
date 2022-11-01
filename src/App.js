@@ -1,20 +1,33 @@
 import React, {Component} from 'react';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import About from './components/About';
+import { HashRouter, Route } from 'react-router-dom';
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
+import Header from './components/Header';
+import Home from './components/Home';
+import About from './components/About';
+import Contact from './components/Contact';
+import Portfolio from './components/Portfolio';
+import Footer from './components/Footer';
 
 class App extends Component {
-  render () {
-      return (
-          <div className = "App">
-              <Header/>
-              <Footer/>
-              <About/>
-          </div>
-      );
+  render() {
+    return (
+      <HashRouter basename="/">
+        <div className="app">
+          <Header />
+          <main>
+
+            <Route exact path="/" component={Home} />
+            <Route exact path="/about" component={About} />
+            <Route exact path="/contact" component={Contact} />
+            <Route exact path="/portfolio" component={Portfolio} />
+
+          </main>
+          <Footer />
+        </div>
+      </HashRouter>
+    );
   }
 }
-export default App 
+
+export default App;
