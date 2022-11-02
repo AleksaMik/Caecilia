@@ -22,7 +22,7 @@ I WANT to view a potential employee's deployed React portfolio of work samples
 SO THAT I can assess whether they're a good candidate for an open position  
 
 ## Links 
- [URL of the GitHub repository]()
+ [URL of the GitHub repository](https://github.com/AleksaMik/Caecilia)
  
 
  [deployed application](https://aleksamik.github.io/Caecilia/#/about)
