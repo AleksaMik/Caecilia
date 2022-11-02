@@ -1,29 +1,29 @@
 {
   "files": {
     "main.css": "/Caecilia/static/css/main.b808fd1f.chunk.css",
-    "main.js": "/Caecilia/static/js/main.fcc8fcfc.chunk.js",
-    "main.js.map": "/Caecilia/static/js/main.fcc8fcfc.chunk.js.map",
-    "runtime-main.js": "/Caecilia/static/js/runtime-main.4e2c863e.js",
-    "runtime-main.js.map": "/Caecilia/static/js/runtime-main.4e2c863e.js.map",
+    "main.js": "/Caecilia/static/js/main.af5a548a.chunk.js",
+    "main.js.map": "/Caecilia/static/js/main.af5a548a.chunk.js.map",
+    "runtime-main.js": "/Caecilia/static/js/runtime-main.6188e5e4.js",
+    "runtime-main.js.map": "/Caecilia/static/js/runtime-main.6188e5e4.js.map",
     "static/css/2.c4e73993.chunk.css": "/Caecilia/static/css/2.c4e73993.chunk.css",
-    "static/js/2.ae2092fd.chunk.js": "/Caecilia/static/js/2.ae2092fd.chunk.js",
-    "static/js/2.ae2092fd.chunk.js.map": "/Caecilia/static/js/2.ae2092fd.chunk.js.map",
-    "static/js/3.6d047722.chunk.js": "/Caecilia/static/js/3.6d047722.chunk.js",
-    "static/js/3.6d047722.chunk.js.map": "/Caecilia/static/js/3.6d047722.chunk.js.map",
+    "static/js/2.965e5a03.chunk.js": "/Caecilia/static/js/2.965e5a03.chunk.js",
+    "static/js/2.965e5a03.chunk.js.map": "/Caecilia/static/js/2.965e5a03.chunk.js.map",
+    "static/js/3.789ae29d.chunk.js": "/Caecilia/static/js/3.789ae29d.chunk.js",
+    "static/js/3.789ae29d.chunk.js.map": "/Caecilia/static/js/3.789ae29d.chunk.js.map",
     "index.html": "/Caecilia/index.html",
     "static/css/2.c4e73993.chunk.css.map": "/Caecilia/static/css/2.c4e73993.chunk.css.map",
     "static/css/main.b808fd1f.chunk.css.map": "/Caecilia/static/css/main.b808fd1f.chunk.css.map",
-    "static/js/2.ae2092fd.chunk.js.LICENSE.txt": "/Caecilia/static/js/2.ae2092fd.chunk.js.LICENSE.txt",
+    "static/js/2.965e5a03.chunk.js.LICENSE.txt": "/Caecilia/static/js/2.965e5a03.chunk.js.LICENSE.txt",
     "static/media/myProfile.57cf9211.png": "/Caecilia/static/media/myProfile.57cf9211.png",
     "static/media/screenCalendar.41f968b8.png": "/Caecilia/static/media/screenCalendar.41f968b8.png",
     "static/media/screenQuiz.809c1859.png": "/Caecilia/static/media/screenQuiz.809c1859.png",
     "static/media/screenWeather.2bab62f9.png": "/Caecilia/static/media/screenWeather.2bab62f9.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.4e2c863e.js",
+    "static/js/runtime-main.6188e5e4.js",
     "static/css/2.c4e73993.chunk.css",
-    "static/js/2.ae2092fd.chunk.js",
+    "static/js/2.965e5a03.chunk.js",
     "static/css/main.b808fd1f.chunk.css",
-    "static/js/main.fcc8fcfc.chunk.js"
+    "static/js/main.af5a548a.chunk.js"
   ]
 }
